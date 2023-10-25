@@ -21,6 +21,8 @@ if(!$_SESSION['email']){
 	  }	  
 	  </style>
 	   <body><b>Welcome:</b><br>
+
+	   <a href="test.php">Next</a>
 	   <font color='red' size='5'>
 	   <?php echo $_SESSION['email']; ?>
        
